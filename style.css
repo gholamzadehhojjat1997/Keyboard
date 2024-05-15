@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+h3 {
+  display: inline;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 50px;
+}
+h3:hover {
+  color: yellowgreen;
+}
+.container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.rows {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.button {
+  width: 100px;
+  height: 100px;
+  margin: 2.5px;
+  border: 1px solid black;
+  font-size: 15px;
+  background-color: lightblue;
+}
+.button:hover {
+  background-color: lightskyblue;
+}
